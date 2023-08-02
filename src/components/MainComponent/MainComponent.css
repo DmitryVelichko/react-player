@@ -1,0 +1,12 @@
+.App {
+    text-align: center;
+    background-color: #f8f1eb;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+  
+  }
