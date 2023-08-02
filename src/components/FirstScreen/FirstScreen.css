@@ -17,3 +17,28 @@
   border-bottom-right-radius: 90px;
   transform: scale(2.3);
 }
+
+.logo-image {
+  position: absolute;
+  left: 25px;
+  top: 0;
+  margin-top: 10px;
+  height: 30px;
+}
+
+.nav-elements a {
+  margin-right: 32px;
+  font-size: 22px;
+  text-decoration: none;
+  color: #9f8053;
+}
+
+.nav-container {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+}
+
