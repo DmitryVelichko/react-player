@@ -108,3 +108,57 @@ const Control = ({
           )}{" "}
         </div>
 
+        <div className="icon__btn">
+          <FastForward fontSize="medium" onDoubleClick={onForward} />
+        </div>
+      </div>
+      <div className="bottom__container">
+        <div className="slider__container">
+          <PrettoSlider
+            min={0}
+            max={100}
+            value={played * 100}
+            onChange={onSeek}
+            onChangeCommitted={onSeekMouseUp}
+            onMouseDown={onMouseSeekDown}
+          />
+        </div>
+        <div className="control__box">
+          <div className="inner__controls">
+            <div className="icon__btn" onClick={onPlayPause}>
+              {playing ? (
+                <Pause fontSize="medium" />
+              ) : (
+                <PlayArrow fontSize="medium" />
+              )}{" "}
+            </div>
+
+            <div className="icon__btn">
+              <SkipNext fontSize="medium" />
+            </div>
+
+            <div className="icon__btn" onClick={onMute}>
+            {mute ? (
+                  <VolumeOff fontSize="medium" />
+                ) : (
+                  <VolumeUp fontSize="medium" />
+                )}
+            </div>
+
+            <Slider
+              className={`${classes.volumeSlider}`}
+              onChange={onVolumeChangeHandler}
+              value={volume * 100}
+              onChangeCommitted={onVolumeSeekUp}
+            />
+
+            <span>{ currentTime} : {duration}</span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Control;
