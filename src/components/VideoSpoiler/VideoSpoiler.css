@@ -1,0 +1,78 @@
+.video-spoiler {
+    width: 100%;
+    border: 25px solid #ebdbc9;
+    border-left: none;
+    border-right: none;
+    background-color: #d6b899;
+    margin-top: 0;
+    cursor: pointer;
+    user-select: none;
+}
+.video-spoiler:hover{
+    background-color: #d1a477;
+}
+
+.spoiler-title {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.spoiler-text-left p,
+.spoiler-text-right p {
+    font-size: 30px;
+    color: #003a52;
+}
+
+.spoiler-text-left p {
+    text-align: left;
+}
+
+.spoiler-text-right p {
+    text-align: right;
+}
+
+
+
+.video-spoiler .spoiler-content{
+    display: none;
+}
+.video-spoiler.unfold .spoiler-content{
+    display: block;
+}
+
+.video-spoiler .spoiler-icon{
+    width: 132px;
+    height: 94px;
+    background: url('../../assets/arrowdown.png') no-repeat center;
+}
+.video-spoiler.unfold .spoiler-icon{
+    transform: scaleY(-1);
+}
+
+
+@media (max-width: 1400px) {
+  
+}
+@media (max-width: 1200px) {
+    .title, .subtitle, .course-desc {
+        font-size: 20px !important;
+    }
+}
+@media (max-width: 992px) {
+    .title, .subtitle, .course-desc {
+        font-size: 17px !important;
+    }
+}
+@media (max-width: 768px) {
+    .title, .subtitle, .course-desc {
+        font-size: 15px !important;
+    }
+}
+@media (max-width: 576px) {
+    .title, .subtitle, .course-desc {
+        font-size: 12px !important;
+    }
+
+}

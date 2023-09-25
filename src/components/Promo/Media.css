@@ -1,0 +1,25 @@
+@media (max-width: 1400px) {
+    .logo-image {
+        height: 80px;
+    }
+
+    .heading {
+        font-size: 10px;
+    }
+  }
+  @media (max-width: 1200px) {
+    
+  }
+  @media (max-width: 992px) {
+    
+  }
+  @media (max-width: 768px) {
+    
+  }
+  @media (max-width: 576px) {
+    .button-container .button1 button,
+    .button-container .button2 button,
+    .button-container h3{
+        font-size: 1em;
+    }
+  }

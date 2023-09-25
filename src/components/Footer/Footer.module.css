@@ -1,0 +1,24 @@
+.footer {
+  background-color: #ffffff;
+}
+
+.footerContainer {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  max-width: 800px;
+  padding: 30px;
+}
+
+.logo {
+  margin-right: 40px;
+  padding-bottom: 40px;
+}
+
+.text {
+  font-size: 16px;
+  color: #1d2473;
+  text-align: left;
+}

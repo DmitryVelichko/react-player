@@ -1,0 +1,72 @@
+.authorization-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .form-container {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .auth-page-btn {
+    padding: 13px 30px 13px 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  .attention-message {
+    font-style: italic;
+    color: red;
+    font-weight: lighter;
+    margin-bottom: 5px;
+  }
+
+  .phone-input-box {
+    margin: auto;
+    text-align: center;
+  }
+  
+  .plus, input {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: center;;
+  }
+
+  .notice {
+    border: 1px solid rgb(226, 224, 224);
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+  }
